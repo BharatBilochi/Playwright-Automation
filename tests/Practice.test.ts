@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 import { ADDRGETNETWORKPARAMS } from 'dns'
 
 test.describe("My first practice work Suite", () => {
-    test.only('Practice', async ({ page }) => {
+    test('Practice', async ({ page }) => {
 
         await page.goto("https://www.saucedemo.com/")
         await page.fill("#user-name", "standard_user")
@@ -19,7 +19,7 @@ test.describe("My first practice work Suite", () => {
 
     })
 
-    test.skip("practice1", async ({ page }) => {
+    test("practice1", async ({ page }) => {
 
         await page.goto("https://www.saucedemo.com/")
 
@@ -28,7 +28,7 @@ test.describe("My first practice work Suite", () => {
 
     })
 
-    test.skip("Dominos Practice", async ({ page }) => {
+    test("Dominos Practice", async ({ page }) => {
 
 
         await page.goto("https://agi-hylt.gcom.grainger.com/en")

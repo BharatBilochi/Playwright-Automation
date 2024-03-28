@@ -24,7 +24,7 @@ test('Grainger With Login', async ({ page }) => {
   //    
 })
 
-test.only('Grainger Without Login', async ({ page }) => {
+test('Grainger Without Login', async ({ page }) => {
   //here goest the code}
   // await page.setViewportSize({ width: 1536, height: 864 })
   await page.goto("https://agi-hylt.gcom.grainger.com/en")
