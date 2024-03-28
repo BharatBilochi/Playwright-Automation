@@ -31,7 +31,7 @@ test("Negative Scenario For Login", async ({ page }) => {
   await loginpage.ErrorMessage()
 })
 
-test.only("Contact Us Page", async ({ page }) => {
+test("Contact Us Page", async ({ page }) => {
 
   await homepage.ScrollToContactUs()
   await homepage.contactusLink()
